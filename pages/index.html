@@ -1,0 +1,75 @@
+<html> 
+<head>
+    <title>
+        Hyper Dev Code
+    </title>
+    <link rel="stylesheet" href="main.css" type="text/css"/>
+
+</head>
+<body>
+    <h1 class="topic">  <span id="topic"></span>
+    </h1>
+    <div id="background-image" class="image-container">
+        <div class="code-container">
+            <div class="center-container"
+                <p>   <span id="code"></span>
+                </p>
+                <div class="author"> <span id="author"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <html>
+<head>
+</head>
+
+<script>
+  
+    var code_list = [
+        {
+            "topic": "Your Hyper Dev code is",
+            "css_class": "hyper",
+            "code": "your code is UXB5-tMez-y4JB"
+        },
+        {
+            "topic": "Your Hyper Dev code is",
+            "css_class": "hyper",
+            "code": "your code is UXB5-tMez-y4JB"
+        },
+        {
+            "topic": "Your Hyper Dev code is",
+            "css_class": "hyper",
+            "code": "your code is UXB5-tMez-y4JB"
+        },
+        {
+            "topic": "Your Hyper Dev code is",
+            "css_class": "hyper",
+            "code": "your code is TXTZ-3Q5b-nTNT"
+        },  
+        {
+            "topic": "Your Hyper Dev code is",
+            "css_class": "hyper",
+            "code": "your code is hNEX-eV37-Uz6j"
+        },   
+        {
+            "topic": "Your Hyper Dev code is",
+            "css_class": "hyper",
+            "code": "your code is LBhq-9w42-Evwn"
+        },  
+        {
+            "topic": "Your Hyper Dev code is",
+            "css_class": "hyper",
+            "code": "your code is Vw4a-Xq6G-LMYu"
+        }, 
+    ];
+    var random_index = Math.floor(Math.random() * code_list.length);
+    var one_code = code_list[random_index];
+    console.log(one_code)
+    document.getElementById("background-image").classList.add(one_code.css_class);
+    document.getElementById("topic").innerHTML = one_code.topic;
+    document.getElementById("code").innerHTML = one_code.code;
+</script>
+
+
+</body>
+</html>
