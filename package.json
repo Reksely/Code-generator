@@ -1,0 +1,26 @@
+{
+  "name": "Code-generator",
+  "version": "1.0.0",
+  "description": "idk if someone needs that cuz its rly weird generator lol",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Reksely/Code-generator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Reksely/Code-generator/issues"
+  },
+  "homepage": "https://github.com/Reksely/Code-generator#readme",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "chalk": "^5.0.1",
+    "cli-color": "^2.0.2",
+    "express": "^4.18.0"
+  }
+}
