@@ -1,4 +1,10 @@
 # Code-generator
-idk if someone needs that cuz its rly weird generator lol
+Really good Generator
 
-Also its on nodejs but html files are in pages folder
+EndPoints:
+
+/get-code(GET) = generates code and puts into codes.json
+
+/make-code/:code(GET) = makes code with name that u put afer make-code
+
+/code-info/:code(POST) = Gives info about your code (you need auth header(more info in code))
