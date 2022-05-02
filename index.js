@@ -4,7 +4,7 @@ const fs = require("fs");
 const app = express();
  const clc = require('cli-color'); // coolest package for colors in console
 
-// globsl variables
+// global variables
 var FunStuffToWork = true // put this to false to disable cool console spam
 
 
